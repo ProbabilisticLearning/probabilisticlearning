@@ -4,8 +4,9 @@
 * Agenda
 - Introduction
 - Course Info and overview
+- Questions
 - Hype
-- questions+chill
+- Chill
 
 
 * Accessibility Check

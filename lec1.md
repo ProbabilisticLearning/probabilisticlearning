@@ -1,37 +1,38 @@
 
 # Table of Contents
 
-1.  [Agenda](#org03118ed)
-2.  [Accessibility Check](#org3bbb54a)
-3.  [About Instructor](#org886207a)
-4.  [Land Acknowledgement](#orgdf39171)
-5.  [Attention Acknowledgement](#org74e162d)
-6.  [Fun Acknowledgement](#org9075dd6)
-7.  [Learning Outcomes](#org8556b87)
-8.  [Motivation](#org611d9ed)
-9.  [Scope](#org2178566)
-10. [Out of Scope](#orgd041e39)
-11. [Tools of the trade](#org49f63d6)
-12. [Build with these Tools](#org8aa1aa7)
+1.  [Agenda](#orgf931460)
+2.  [Accessibility Check](#orga379a33)
+3.  [About Instructor](#org1d4a6ca)
+4.  [Land Acknowledgement](#org6bf85e7)
+5.  [Attention Acknowledgement](#org8479625)
+6.  [Fun Acknowledgement](#org40b437f)
+7.  [Learning Outcomes](#orgd71c0e2)
+8.  [Motivation](#org2ab4743)
+9.  [Scope](#org1708d1a)
+10. [Out of Scope](#orgb169c1f)
+11. [Tools of the trade](#orgb1f4277)
+12. [Build with these Tools](#org8ca2ca5)
 
 
 
-<a id="org03118ed"></a>
+<a id="orgf931460"></a>
 
 # Agenda
 
 -   Introduction
 -   Course Info and overview
+-   Questions
 -   Hype
--   questions+chill
+-   Chill
 
 
-<a id="org3bbb54a"></a>
+<a id="orga379a33"></a>
 
 # Accessibility Check
 
 
-<a id="org886207a"></a>
+<a id="org1d4a6ca"></a>
 
 # About Instructor
 
@@ -47,14 +48,14 @@ Jesse Bettencourt
 -   &ldquo;Jesse&rdquo; is preferred in emails, please I am not a Mr., Dr., or a Prof.
 
 
-<a id="orgdf39171"></a>
+<a id="org6bf85e7"></a>
 
 # Land Acknowledgement
 
 First I want to acknowledge that I am working from in the traditional territory of Tkaranto, a site of activity and meeting since time immemorial, with acknowledgement to the Anishnaabe, the Haudenosaunee, the Huron-Wendat, the Petun, and the Mississaugas of the Credit First Nation, whose presence past, present, and future include being caretakers of the land. I am grateful to have the opportunity to participate in this activity and work on this land.
 
 
-<a id="org74e162d"></a>
+<a id="org8479625"></a>
 
 # Attention Acknowledgement
 
@@ -64,7 +65,7 @@ I understand some of the difficulties you might be facing, especially the challe
 Thank you for taking the time and energy to attend to this work as best we can under the circumstances.
 
 
-<a id="org9075dd6"></a>
+<a id="org40b437f"></a>
 
 # Fun Acknowledgement
 
@@ -74,7 +75,7 @@ What we can do is decide to approach these challenges, together, with some enthu
 Let&rsquo;s have some fun.
 
 
-<a id="org8556b87"></a>
+<a id="orgd71c0e2"></a>
 
 # Learning Outcomes
 
@@ -85,7 +86,7 @@ Let&rsquo;s have some fun.
 -   tools and practical skills we will be using
 
 
-<a id="org611d9ed"></a>
+<a id="org2ab4743"></a>
 
 # Motivation
 
@@ -105,7 +106,7 @@ How can we model our uncertainty?
 -   is it the result of adversarial misinformation?
 
 
-<a id="org2178566"></a>
+<a id="org1708d1a"></a>
 
 # Scope
 
@@ -118,7 +119,7 @@ How can we model our uncertainty?
     -   gradient-based optimization and automatic differentiation
 
 
-<a id="orgd041e39"></a>
+<a id="orgb169c1f"></a>
 
 # Out of Scope
 
@@ -132,7 +133,7 @@ How can we model our uncertainty?
 However, all these courses are deeply related and benefit from our topics.
 
 
-<a id="org49f63d6"></a>
+<a id="orgb1f4277"></a>
 
 # Tools of the trade
 
@@ -144,7 +145,7 @@ However, all these courses are deeply related and benefit from our topics.
 -   Approximate inference to tractably perform modelling tasks (VI and MCMC)
 
 
-<a id="org8aa1aa7"></a>
+<a id="org8ca2ca5"></a>
 
 # Build with these Tools
 
