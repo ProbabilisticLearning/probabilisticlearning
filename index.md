@@ -25,6 +25,15 @@ This course will present the basic building blocks of these models, the techniqu
 
 ## Discussion Board: <https://probml-forum.jessebett.com/>
 
+## Lectures
+* [Lecture 1 Notes](lec1.md) and [zoom recording](https://www.youtube.com/watch?v=6H4STM7mvuk&list=PLHOaL7udqbt9WQBFtkg9AEaxZe2ddXpXJ&index=1)
+
+
+* [Tutorial 1 Notes](tut1.md) and [zoom recording](https://www.youtube.com/watch?v=nNGlPossbNM&list=PLHOaL7udqbt9WQBFtkg9AEaxZe2ddXpXJ&index=2)
+
+
+* [Lecture 2 Notes: Probabilistic Reasoning](lec2.md) and [zoom recording]
+
 
 ## Teaching Team
 
@@ -192,16 +201,4 @@ There is no required textbook for this class. Readings from various sources will
 -   Edwin Jaynes (2003) *Probability Theory: The Logic of Science*.
 -   David MacKay (2003) *Information Theory, Inference, and Learning Algorithms* <http://www.inference.phy.cam.ac.uk/mackay/itila/> .
 -   Kevin Murphy (2012) *Machine Learning: A Probabilistic Perspective*.
-
-
-# Lecture Notes
-
-
-## [Lecture 1](lec1.md)
-
-
-## [Tutorial 1](tut1.md)
-
-
-## [Lecture 2: Probabilistic Reasoning](lec2.md)
 
