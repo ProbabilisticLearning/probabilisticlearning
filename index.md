@@ -25,15 +25,16 @@ This course will present the basic building blocks of these models, the techniqu
 
 ## Discussion Board: <https://probml-forum.jessebett.com/>
 
-## Lectures
-* [Lecture 1 Notes](lec1.md) and [zoom recording](https://www.youtube.com/watch?v=6H4STM7mvuk&list=PLHOaL7udqbt9WQBFtkg9AEaxZe2ddXpXJ&index=1)
+## Lectures and Tutorials ([GoogleDrive](https://drive.google.com/drive/folders/1ohy7FHmgQNFIp3IHsIz2T4AWnvrKOVF9))
+* [Lecture 1 Notes](lec1.md) and [blackboard](https://drive.google.com/file/d/1bNeQn0EOF-2UGPP76hjgsn_I0KZKd0yM/view?usp=sharing) and [zoom recording](https://www.youtube.com/watch?v=6H4STM7mvuk&list=PLHOaL7udqbt9WQBFtkg9AEaxZe2ddXpXJ&index=1)
 
 
-* [Tutorial 1 Notes](tut1.md) and [zoom recording](https://www.youtube.com/watch?v=nNGlPossbNM&list=PLHOaL7udqbt9WQBFtkg9AEaxZe2ddXpXJ&index=2)
+* [Tutorial 1 Code](/Tutorial%201) and [zoom recording](https://www.youtube.com/watch?v=nNGlPossbNM&list=PLHOaL7udqbt9WQBFtkg9AEaxZe2ddXpXJ&index=2)
 
 
-* [Lecture 2 Notes: Probabilistic Reasoning](lec2.md) and [zoom recording](https://mymedia.library.utoronto.ca/play/6e481bc25acb844a11a7ba01ad1c9111)
+* [Lecture 2 Notes: Probabilistic Reasoning](lec2.md) and [blackboard](https://drive.google.com/file/d/168FckF00dwUT_B1rkCvport3DVRTTUOm/view?usp=sharing) and [zoom recording](https://mymedia.library.utoronto.ca/play/6e481bc25acb844a11a7ba01ad1c9111)
 
+* [Tutorial 2 Slides](https://drive.google.com/file/d/1vnIRx3RAwIhwi29WYTcj0QfOKZ_Ha7ZN/view?usp=sharing) and [zoom recording](https://play.library.utoronto.ca/play/236a033286fcd656f7cc08055f7fd164)
 
 ## Teaching Team
 
