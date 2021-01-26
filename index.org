@@ -188,6 +188,7 @@ There is no required textbook for this class. Readings from various sources will
 
 * Lecture Notes
 
-** [[file:lec1.org][Lecture 1]]
-** [[file:tut1.org][Tutorial 1]]
-** [[file:lec2.org][Lecture 2: Probabilistic Reasoning]]
+- [[file:lec1.org][Lecture 1]]
+- [[file:tut1.org][Tutorial 1]]
+- [[file:lec2.org][Lecture 2: Probabilistic Reasoning]]
+[[file:lec3.org][- Lecture 3: Probabilistic Graphical Models]]

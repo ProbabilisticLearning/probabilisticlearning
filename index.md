@@ -196,12 +196,9 @@ There is no required textbook for this class. Readings from various sources will
 
 # Lecture Notes
 
+-   [Lecture 1](lec1.md)
+-   [Tutorial 1](tut1.md)
+-   [Lecture 2: Probabilistic Reasoning](lec2.md)
 
-## [Lecture 1](lec1.md)
-
-
-## [Tutorial 1](tut1.md)
-
-
-## [Lecture 2: Probabilistic Reasoning](lec2.md)
+[- Lecture 3: Probabilistic Graphical Models](lec3.md)
 
