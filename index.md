@@ -32,7 +32,7 @@ This course will present the basic building blocks of these models, the techniqu
 * [Tutorial 1 Notes](tut1.md) and [zoom recording](https://www.youtube.com/watch?v=nNGlPossbNM&list=PLHOaL7udqbt9WQBFtkg9AEaxZe2ddXpXJ&index=2)
 
 
-* [Lecture 2 Notes: Probabilistic Reasoning](lec2.md) and [zoom recording]
+* [Lecture 2 Notes: Probabilistic Reasoning](lec2.md) and [zoom recording](https://mymedia.library.utoronto.ca/play/6e481bc25acb844a11a7ba01ad1c9111)
 
 
 ## Teaching Team
