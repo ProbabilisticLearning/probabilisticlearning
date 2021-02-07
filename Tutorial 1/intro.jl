@@ -19,15 +19,15 @@
 print("hello CSC412!")
 
 # We can evaluate some math
-4+1+4
+4+1+2
 
 # If we want to supress the output in the editor we can use ;
-4+1+4;
+4+1+2;
 
 # And if we do want to have the evaluation output (e.g. for an assignment)
-print(4+1+4)
+print(4+1+2)
 # or the @show macro will also include what's evaluated and no parenthesis
-@show 4+1+4
+@show 4+1+2;
 
 
 ### Arrays
@@ -123,7 +123,6 @@ B_re[1, 2:4]
 [1,2,3][3]
 [1,2,3][end]
 [1,2,3][-1]
-[1,2,3][0]
 [1,2,3][2:-1:1]
 
 # Functions on Arrays
@@ -201,7 +200,7 @@ A * x
 # Dot product (from LinearAlgebra.jl)
 dot(x,x)
 # or \cdot ⋅
-x ⋅ x
+x ⋅ x  
 
 # Determinants of square matrices
 det(rand(5,5))
@@ -300,8 +299,8 @@ using Test
 # @testset is a nice way of collecting related tests
 @testset "Gradients of f = x^2" begin
     @test gradient(f,0.)[1] == 0.
-    @test gradient(f,1.)[1] == 2.
-    @test gradient(f,2.)[1] == 3.
+    @test gradient(f,1.)[1]== 2.
+    @test gradient(f,2.)[1] == 4.
 end
 
 # Note that gradient returns a tuple, one value for each argument.
