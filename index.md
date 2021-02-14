@@ -51,8 +51,9 @@ This course will present the basic building blocks of these models, the techniqu
 
 ### Office Hours
 
-TBA
+Friday 11:10 - 12
 
+https://utoronto.zoom.us/j/89747562054
 
 # Assessment
 
