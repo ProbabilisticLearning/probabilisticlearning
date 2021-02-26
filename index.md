@@ -51,9 +51,10 @@ This course will present the basic building blocks of these models, the techniqu
 
 ### Office Hours
 
-Friday 11:10 - 12
+Friday 11:10 - 12:00
 
 https://utoronto.zoom.us/j/89747562054
+Passcode: 205498
 
 # Assessment
 
