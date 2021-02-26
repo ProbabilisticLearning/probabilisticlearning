@@ -53,8 +53,7 @@ This course will present the basic building blocks of these models, the techniqu
 
 Friday 11:10 - 12:00
 
-https://utoronto.zoom.us/j/89747562054
-Passcode: 205498
+link and passcode: https://probml-forum.jessebett.com/t/instructor-office-hours-fridays-11-10-12/1479
 
 # Assessment
 
