@@ -51,18 +51,19 @@ This course will present the basic building blocks of these models, the techniqu
 
 ### Office Hours
 
-TBA
+Friday 11:10 - 12:00
 
+link and passcode: https://probml-forum.jessebett.com/t/instructor-office-hours-fridays-11-10-12/1479
 
 # Assessment
 
 
 ## Mark Breakdown
 
--   A1: 15% (Feb 5)
--   A2: 15% (March 5)
+-   A1: 15% (Feb 12)
+-   A2: 15% (March 12)
 -   A3: 15% (April 2)
--   Project Proposal: 10% (Feb 12)
+-   Project Proposal: 10% (Feb 24)
 -   Project Report: 30% (April 9)
 -   Computer Science Communication: 15% (March 30)
 
