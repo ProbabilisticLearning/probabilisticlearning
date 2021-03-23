@@ -51,8 +51,9 @@ This course will present the basic building blocks of these models, the techniqu
 
 ### Office Hours
 
-TBA
+Friday 11:10 - 12:00
 
+link and passcode: https://probml-forum.jessebett.com/t/instructor-office-hours-fridays-11-10-12/1479
 
 # Assessment
 
