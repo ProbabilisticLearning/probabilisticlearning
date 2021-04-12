@@ -1,0 +1,119 @@
+documentclass{article}
+usepackage[utf8]{inputenc}
+usepackage{hyperref}
+usepackage{amsmath}
+usepackage{graphicx}
+usepackage{amssymb}
+title{CSC412 Notes Week 5}
+author{Jerry Zheng}
+date{April 2021}
+hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+    pdftitle={Sharelatex Example},
+    bookmarks=true,
+    pdfpagemode=FullScreen,
+}
+
+begin{document}
+
+maketitle
+section{Problems with Directed Graphical Models}
+For some problems, directionality for the edges in our DAGMs really hinders us.
+for example,  when we process an image we know that a pixel depends on its neighbours.
+Lets Say pixel 2 depends on pixel 1 and pixel 3 depends on pixel 2.
+We can extrapolate this into a Markov mesh.
+includegraphics[scale=0.5]{Screenshot_15.png}
+Of course, this model isnt very good because dependencies are directional and only go down and to the right.
+Also, if we observe some pixels, then pixels nearby can be arbitrarily conditionally independent!
+
+Alternatively we can have a Naive Bayes model by introducing a hidden class variable.
+$$p(X) = sum_z p(X,z)$$
+$$p(X) = sum_z prod_{x_iin X} p(x_iz)$$
+includegraphics[scale=0.4]{Screenshot_16.png}
+
+However there are issues with this too.
+The top left and bot right pixels are dependent on each other which might not be desired.
+Also, if we know what the class is then all the pixels are conditionally independent.
+
+An alternative to DAGMs, is undirected graphical models (UGMs).
+
+
+section{Undirected Graphical Models}
+In UGMs, we have edges that captures relation between variables rather than defining them as parent and child.
+
+includegraphics[scale=0.4]{Screenshot_17.png}
+
+subsection{D-Sepearation in Undirected Graphical Models}
+The following three properties are used to determine if nodes are conditionally independent
+includegraphics[scale=0.2]{skggm_markov.png}
+
+Global Markov Property 
+$X_A bot X_B  X_C$ iff $(X_C)$ separates $(X_A)$ from $(X_B)$
+
+Local Markov Property The set of nodes that renders a node conditionally independent of all the other nodes in the graph
+
+$$X_j bot X_{V - {j,neighbour(j)}} X_{neighbour(j)}$$
+
+Pairwise Markov Property The set of nodes that renders two nodes conditionally independent of each other.
+$$X_j bot X_i X_{V - {j, i}}$$
+
+It's obvious that global Markov implies local Markov which implies pairwise Markov.
+
+subsection{limitations of UAGs and DAGs}
+Note, though we can represent new relations between variables, we can't represent others.
+includegraphics[scale=0.4]{Screenshot_18.png}
+A DAG cant represent graph 1 where X and Z are conditionally dependent while a UAG can.
+But a UAG cannot represent graph 2 where X and Z are conditionally independent without knowing Y.
+
+subsection{Moralization}
+This was only mentioned in passing during lecture but a DAG can be converted to a UAG using href{httpsen.wikipedia.orgwikiMoral_graph}{Moralization}
+This is done adding edges between all pairs of non-adjacent nodes that have a common child, then making all edges in the graph undirected.
+includegraphics[scale=0.2]{moralGraph-DAG.png} becomes
+includegraphics[scale=0.2]{Moralized.png}
+section{Cliques}
+A clique in an undirected graph is a subset of its vertices such that every two vertices in the subset are connected by an edge.
+
+A maximal clique is a clique that cannot be extended by including one more adjacent vertex.
+A maximum clique is a clique of the largest possible size in a graph.
+
+includegraphics[scale=0.8]{Screenshot_19.png}
+The image shows 2 maximal cliques with the red clique also being the maximum clique
+
+section{Hammersley-Clifford Theorem}
+Since there is no topological ordering for an undirected graph, we can’t use the chain rule to represent p(y). So instead, we associate factors with each maximal clique.
+We will denote the potential function for clique with $psi_c(y_ctheta_c)$ (back from the last week's notes) this can be any non-negative function.
+The joint distribution is then defined to be proportional to the product of clique potentials.
+
+Hammersley-Clifford Theorem A positive distribution $p(y)  0$ satisfies the CI properties of an undirected graph G iff p can be represented as a product of factors, one per maximal clique, i.e.,
+
+$$P(ytheta) = frac{1}{Z(theta)} prod_C psi_c (y_ctheta_c)$$
+
+Where $Z(theta)$ is the sum of all our possible values.
+$$P(ytheta) = sum_C psi_c (y_ctheta_c)$$
+
+going back to our example graph
+includegraphics[scale=0.8]{Screenshot_20.png}
+$$
+p(ytheta) = frac{1}{Z(theta)}  psi_{123}(y_1, y_2, y_3) psi_{234}(y_2, y_3, y_4) psi_{35}(y_3, y_5)
+$$
+$$
+Z = sum_y psi_{123}(y_1, y_2, y_3)psi_{234}(y_2, y_3, y_4)psi_{35}(y_3, y_5)
+$$
+this is useful because we can represent terms in terms of cliques instead of edges with reduces the number of terms in variable elimination
+
+section{Energy Based Models}
+UGMs are very useful in physics. Take for example the Gibbs distribution used for modeling of Gibbs free Energy
+$$p(yθ) = frac{1}{Z(theta)} exp(−sum_c E(y_ctheta_c)) $$
+where $E(y_c)  0$ is the energy associated with the variables in clique c. We can convert this to
+UGM by defining.
+$$psi_c(y_ctheta_c) = exp(−E(y_ctheta_c))$$
+
+so we can now model the energy state of say, a protein molecule as a UGM.
+includegraphics[scale=0.6]{Screenshot_21.png}
+not a molecule don't @ me
+
+But going back to our initial example, it's east to see with a UAGM we can represent say, pixels in an image and have neighbouring pixels be related to each other.
+end{document}
